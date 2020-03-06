@@ -1,0 +1,46 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+#logo {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;   
+}
+
+div {
+    
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    font-size: 12px;
+    padding: 0px;
+}
+
+li {
+    display: inline-block;
+    margin: 3px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#banner {
+    width: 100%;
+    height: 500px;
+    background-image: url("../img/jane.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+#footer {
+    background-color: #eceaea;
+    text-align: center;
+    padding: 10px;
+}
