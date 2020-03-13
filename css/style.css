@@ -9,8 +9,8 @@ body {
     text-transform: uppercase;   
 }
 
-div {
-    
+header {
+    border: 1px #cac9c9 solid;
 }
 
 #lista-menu {
@@ -70,7 +70,7 @@ h2 {
     font-size:12px;
 }
 
-#contato{
+#contact{
     text-align: left;
     margin: 50px 0 50px 300px;
     font-size:12px;
@@ -85,3 +85,13 @@ h2 {
     font-weight: bold;
     font-size: 16px;
 }
+
+.contact-form form *{
+    display: block;
+}
+
+.contact-form form, iframe{
+    display: inline-block;
+    width: 49%;
+}
+

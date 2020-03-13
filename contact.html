@@ -8,7 +8,7 @@
     </head>
     <body>
         <!-- Menu e logo-->
-        <div>
+        <header>
                 <h1 id="logo">Jane Doe</h1>
     
                 <ul id="lista-menu">
@@ -17,27 +17,55 @@
                     <li class="item-menu"><a href="music.html" class="link-menu">Music</a></li>
                     <li class="item-menu"><a href="contact.html" class="link-menu">Contact</a></li>
                 </ul>
-            </div>
+            </header>
+        
+        <main>
+            <section class="contact-form">
+                    <h2>Contact</h2>
+                    <form>
+                        <label for="name">Name:</label>
+                        <input type="text" name="name">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email">
+                        <label for="message">Message:</label>
+                        <textarea name="message"></textarea>
+                        <p>How did you found Jane's music?</p>
+                        <input type="radio" name="social" value="instagram">
+                        <label for="instagram">Instagram</label>
+                        <input type="radio" name="social" value="youtube">
+                        <label for="instagram">Youtube</label>
+                        <input type="radio" name="social" value="facebook">
+                        <label for="instagram">Facebook</label>
+
+                        <input type="checkbox" name="newslatter">
+                        <label> Você quer saber mais sobre Jane Doe?</label>
+                        <input type="submit" value="Send">
+                    </form>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.048113186719!2d-46.67753058538274!3d-23.602607369001134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce50ab7feb4519%3A0x739f0ddb0439cf94!2sDigital%20House%20S%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1584131303485!5m2!1spt-BR!2sbr" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </section>
+
+            <section id="contact">
+                    
+                    <p class="texto-destacado-contato">MANAGEMENT | Karen Blanche</p>
+                    <p>email: <a href="mailto:info@mysite.com">info@mysite.com</a></p>
+                    <p>phone: <a href="tel:123-456-7890">tel:123-456-7890</a></p>
+                    <div class="line"></div>
+                    <p class="texto-destacado-contato">BOOKING | Daniel Ku</p>
+                    <p>email: <a href="mailto:info@mysite.com">info@mysite.com</a></p>
+                    <p>phone: <a href="tel:123-456-7890">tel:123-456-7890</a></p>
+                    <div class="line"></div>
+                    <p class="texto-destacado-contato">LABEL | Wix Records, Jake Coldham</p>
+                    <p>email: <a href="mailto:info@mysite.com">info@mysite.com</a></p>
+                    <p>phone: <a href="tel:123-456-7890">tel:123-456-7890</a></p>
+                    <div class="line"></div>
+                    <p class="texto-destacado-contato">PR | That Girl Pr, Sarah Brookstone</p>
+                    <p>email: <a href="mailto:info@mysite.com">info@mysite.com</a></p>
+                    <p>phone: <a href="tel:123-456-7890">tel:123-456-7890</a></p>
+            </section>
+
+        </main>
 
 
-        <div id="contato">
-                <h2>Contact</h2>
-                <p class="texto-destacado-contato">MANAGEMENT | Karen Blanche</p>
-                <p>email: <a href="mailto:info@mysite.com">info@mysite.com</a></p>
-                <p>phone: <a href="tel:123-456-7890">tel:123-456-7890</a></p>
-                <div class="line"></div>
-                <p class="texto-destacado-contato">BOOKING | Daniel Ku</p>
-                <p>email: <a href="mailto:info@mysite.com">info@mysite.com</a></p>
-                <p>phone: <a href="tel:123-456-7890">tel:123-456-7890</a></p>
-                <div class="line"></div>
-                <p class="texto-destacado-contato">LABEL | Wix Records, Jake Coldham</p>
-                <p>email: <a href="mailto:info@mysite.com">info@mysite.com</a></p>
-                <p>phone: <a href="tel:123-456-7890">tel:123-456-7890</a></p>
-                <div class="line"></div>
-                <p class="texto-destacado-contato">PR | That Girl Pr, Sarah Brookstone</p>
-                <p>email: <a href="mailto:info@mysite.com">info@mysite.com</a></p>
-                <p>phone: <a href="tel:123-456-7890">tel:123-456-7890</a></p>
-        </div>
 
         <!-- Footer -->
         <div id="footer">
