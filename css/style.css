@@ -13,19 +13,19 @@ div {
     
 }
 
-ul {
+#lista-menu {
     list-style-type: none;
     text-align: center;
     font-size: 12px;
     padding: 0px;
 }
 
-li {
+.item-menu {
     display: inline-block;
     margin: 3px;
 }
 
-a {
+.link-menu {
     text-decoration: none;
     color: black;
 }
@@ -43,4 +43,45 @@ a {
     background-color: #eceaea;
     text-align: center;
     padding: 10px;
+}
+
+#about {
+    text-align: center;
+    font-size: 15px;
+    margin: 50px 0;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+#img-jane2 {
+    width: 450px;
+}
+
+.texto-destacado {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#music {
+    text-align: left;
+    margin: 0 0 0 200px;
+    font-size:12px;
+}
+
+#contato{
+    text-align: left;
+    margin: 50px 0 50px 300px;
+    font-size:12px;
+}
+
+.line {
+    border-top: 1px #cac9c9 solid;
+    width: 65%;
+}
+
+.texto-destacado-contato {
+    font-weight: bold;
+    font-size: 16px;
 }
